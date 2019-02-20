@@ -14,7 +14,14 @@ function teenager(age) {
 }
 
 function ageChecker(age) {
-
+  var y
+  y = basicteenager(age)
+  if (y) { return y }
+  else if (age < 13 ) {
+    return "You are a kid"
+  } else {
+    return "You are a grownup"
+  }
 }
 
 function ternaryTeenager(age) {
