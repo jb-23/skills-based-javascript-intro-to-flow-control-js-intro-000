@@ -10,6 +10,7 @@ function teenager(age) {
   var x
   x = basicTeenager(age)
   if (x) { return x }
+  else { return "You are not a teenager" }
 }
 
 function ageChecker(age) {
