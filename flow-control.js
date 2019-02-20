@@ -15,7 +15,7 @@ function teenager(age) {
 
 function ageChecker(age) {
   var y
-  y = basicteenager(age)
+  y = basicTeenager(age)
   if (y) { return y }
   else if (age < 13 ) {
     return "You are a kid"
