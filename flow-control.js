@@ -7,7 +7,9 @@ function basicTeenager(age) {
 }
 
 function teenager(age) {
-
+  var x
+  x = basicTeenager(age)
+  if (x) { return x }
 }
 
 function ageChecker(age) {
